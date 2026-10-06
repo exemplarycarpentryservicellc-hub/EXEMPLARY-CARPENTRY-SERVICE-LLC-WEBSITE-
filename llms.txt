@@ -1,0 +1,23 @@
+# Exemplary Carpentry Service
+
+> Finish carpentry, flooring, cabinet installation, drywall and painting, and hardscaping in Goose Creek, SC. 10 years of local Lowcountry craftsmanship for homeowners, property managers, and real estate investors.
+
+- Phone: (843) 955-5963
+- Email: exemplarycarpentryfinish@gmail.com
+- Based in: Goose Creek, SC 29445
+- Service areas: Goose Creek, Summerville, North Charleston, Hanahan, Mount Pleasant, James Island, Moncks Corner, Folly Beach
+- Estimates: request by phone or with the online form; an on-site assessment comes before the detailed written quote
+
+## Pages
+
+- [Home](https://exemplarycarpentryservices.com/): services, recent work, process, FAQ, and the estimate form
+- [Home in Markdown](https://exemplarycarpentryservices.com/index.md): the same content without HTML
+- [Privacy Policy](https://exemplarycarpentryservices.com/privacy-policy/)
+- [Terms of Service](https://exemplarycarpentryservices.com/terms/)
+
+## Services
+
+- Finish carpentry: baseboards and shoe molding, crown molding, door and window casing, wainscoting and board-and-batten, cabinet installation, bathroom vanities, custom cabinet build, hardware and trim-out
+- Flooring: luxury vinyl plank installation, hardwood installation, subfloor repair and leveling
+- Drywall and painting: drywall hanging and finishing, interior painting, exterior painting, cabinet painting, cabinet refinishing
+- Outdoor construction and hardscaping: hardscaping and pavers, driveway construction, walkway
