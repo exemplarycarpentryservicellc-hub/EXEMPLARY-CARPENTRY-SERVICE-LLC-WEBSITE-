@@ -29,7 +29,7 @@
 <link rel="preload" as="image" href="/img/hero-kitchen-640.webp" imagesrcset="/img/hero-kitchen-640.webp 640w, /img/hero-kitchen-1024.webp 768w" imagesizes="100vw" media="(max-width: 767px)" fetchpriority="high">
 <link rel="preload" as="image" href="/img/ba-dining-after-1024.webp" imagesrcset="/img/ba-dining-after-640.webp 640w, /img/ba-dining-after-1024.webp 1024w" imagesizes="100vw" media="(min-width: 768px)" fetchpriority="high">
 <style>@font-face{font-family:'Jost';font-style:normal;font-weight:300 600;font-display:swap;src:url('/fonts/jost-300.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Newsreader';font-style:italic;font-weight:300;font-display:swap;src:url('/fonts/newsreader-300-italic.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Archivo';font-style:normal;font-weight:400 600;font-display:swap;src:url('/fonts/archivo-400.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
-<link rel="stylesheet" href="/styles.css?v=1c613d67">
+<link rel="stylesheet" href="/styles.css?v=114fe67b">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -186,13 +186,33 @@
 
   <!-- ================= HERO ================= -->
   <section class="hero" id="top">
-    <picture class="hero__bg">
-      <source media="(max-width: 767px)" srcset="/img/hero-kitchen-640.webp 640w, /img/hero-kitchen-1024.webp 768w" sizes="100vw">
-      <img src="/img/ba-dining-after-1024.webp" srcset="/img/ba-dining-after-640.webp 640w, /img/ba-dining-after-1024.webp 1024w" sizes="100vw" width="1024" height="768" alt="" fetchpriority="high" decoding="async">
-    </picture>
-    <svg class="hero__orn" viewBox="0 0 100 100" aria-hidden="true"><use href="#d-frame"/><use class="hero__orn-hatch" href="#d-hatch"/></svg>
+    <!-- slideshow de fundo: so fotos de trabalho finalizado do cliente.
+         Desktop usa fotos horizontais; celular, verticais (nitidas no celular).
+         O 1o slide carrega na hora (e o LCP); os outros recebem src do JS
+         depois do load (data-src / data-srcset). Sem JS, so o 1o aparece. -->
+    <div class="hero__slides" data-slides aria-hidden="true">
+      <picture class="hero__slide is-on">
+        <source media="(max-width: 767px)" srcset="/img/hero-kitchen-640.webp 640w, /img/hero-kitchen-1024.webp 768w" sizes="100vw">
+        <img src="/img/ba-dining-after-1024.webp" srcset="/img/ba-dining-after-640.webp 640w, /img/ba-dining-after-1024.webp 1024w" sizes="100vw" width="1024" height="768" alt="" fetchpriority="high" decoding="async">
+      </picture>
+      <picture class="hero__slide">
+        <source media="(max-width: 767px)" data-srcset="/img/kitchen-range-640.webp 640w, /img/kitchen-range-1024.webp 768w" sizes="100vw">
+        <img data-src="/img/wainscot-living-1024.webp" data-srcset="/img/wainscot-living-640.webp 640w, /img/wainscot-living-1024.webp 1024w" sizes="100vw" width="1024" height="768" alt="" decoding="async">
+      </picture>
+      <picture class="hero__slide">
+        <source media="(max-width: 767px)" data-srcset="/img/bath-vanity-640.webp 640w, /img/bath-vanity-1024.webp 768w" sizes="100vw">
+        <img data-src="/img/wainscot-hall-1024.webp" data-srcset="/img/wainscot-hall-640.webp 640w, /img/wainscot-hall-1024.webp 1024w" sizes="100vw" width="1024" height="768" alt="" decoding="async">
+      </picture>
+      <picture class="hero__slide">
+        <source media="(max-width: 767px)" data-srcset="/img/stair-trim-640.webp 640w, /img/stair-trim-1024.webp 768w" sizes="100vw">
+        <img data-src="/img/wainscot-office-1024.webp" data-srcset="/img/wainscot-office-640.webp 640w, /img/wainscot-office-1024.webp 1024w" sizes="100vw" width="1024" height="768" alt="" decoding="async">
+      </picture>
+    </div>
+    <button class="hero__pause" type="button" aria-pressed="false" data-slides-toggle hidden>
+      <svg class="ic hero__pause-ic" aria-hidden="true"><use href="#i-pause"/></svg><svg class="ic hero__play-ic" aria-hidden="true"><use href="#i-play"/></svg>
+      <span class="sr-only">Pause background slideshow</span>
+    </button>
     <div class="wrap hero__in">
-      <p class="eyebrow eyebrow--light hero__up" style="--d:0">Finish carpentry &amp; woodwork</p>
       <h1 class="hero__title hero__up" style="--d:1">Skilled carpentry &amp; woodwork <em>done right in Goose Creek, SC</em></h1>
       <p class="hero__sub hero__up" style="--d:2">Exemplary Carpentry Service has delivered sharp finish trim, solid subfloor repairs, and dependable interior carpentry for homeowners, property managers, and real estate investors across Goose Creek and the Lowcountry.</p>
       <div class="hero__actions hero__up" style="--d:3">
@@ -221,7 +241,6 @@
   <section class="sec sec--cream reviews" id="reviews" hidden data-reviews data-review-url="">
     <div class="wrap">
       <div class="head">
-        <p class="eyebrow">Reviews</p>
         <h2 class="h2">What Lowcountry <em>homeowners &amp; partners say</em></h2>
       </div>
       <div class="reviews__grid" data-reviews-grid></div>
@@ -245,7 +264,6 @@
         </div>
       </div>
       <div class="about__copy">
-        <p class="eyebrow rv">About us</p>
         <h2 class="h2 rv">10 years on Lowcountry job sites: <em>built on honest work &amp; clean craft</em></h2>
         <div class="prose rv">
           <p>Good carpentry isn't about slapping trim against a wall and calling it a day. In Goose Creek homes, uneven drywall, coastal humidity shifts, and settling foundations mean every cut requires patience, proper measuring, and an eye for long-term fit.</p>
@@ -269,7 +287,6 @@
     <svg class="orn orn--tl" viewBox="0 0 100 100" aria-hidden="true"><use href="#d-frame"/><use href="#d-hatch"/></svg>
     <div class="wrap">
       <div class="head">
-        <p class="eyebrow rv">Services</p>
         <h2 class="h2 rv">Our customized <em>solutions for you</em></h2>
       </div>
 
@@ -358,7 +375,6 @@
     <svg class="orn orn--br" viewBox="0 0 100 100" aria-hidden="true"><use href="#d-frame"/><use href="#d-hatch"/></svg>
     <div class="wrap">
       <div class="head">
-        <p class="eyebrow rv">Why choose us</p>
         <h2 class="h2 rv">What sets Exemplary Carpentry Service <em>apart</em></h2>
       </div>
       <ul class="why__grid">
@@ -377,7 +393,6 @@
   <section class="sec sec--sand work" id="work">
     <div class="wrap">
       <div class="head">
-        <p class="eyebrow rv">Our work</p>
         <h2 class="h2 rv">See a bit of our recent work <em>around Goose Creek &amp; surrounding areas</em></h2>
       </div>
 
@@ -452,7 +467,6 @@
   <section class="sec sec--navy process" id="process">
     <div class="wrap">
       <div class="head">
-        <p class="eyebrow eyebrow--light rv">How it works</p>
         <h2 class="h2 rv">Simple, straightforward <em>project steps</em></h2>
       </div>
       <ol class="steps">
@@ -490,7 +504,6 @@
   <section class="sec faq" id="faq">
     <div class="wrap">
       <div class="head">
-        <p class="eyebrow rv">FAQ</p>
         <h2 class="h2 rv">Homeowners also <em>ask us</em></h2>
       </div>
       <div class="faq__list rv">
@@ -514,7 +527,6 @@
       <div class="quote" id="estimate">
         <div class="quote__side">
           <svg class="quote__orn" viewBox="0 0 100 100" aria-hidden="true"><use href="#d-frame"/><use href="#d-hatch"/></svg>
-          <p class="eyebrow eyebrow--light">Get started</p>
           <h2 class="quote__title" id="quote-title">Request your <em>written estimate</em></h2>
           <ul class="quote__points">
             <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>On-site assessment &amp; quote</li>
@@ -594,7 +606,6 @@
     <div class="areas__map" data-map aria-hidden="true"></div>
     <div class="wrap areas__wrap">
       <div class="areas__card rv">
-        <p class="eyebrow eyebrow--light">Service areas</p>
         <h2 class="h2" id="areas-title">Where <em>we work</em></h2>
         <p class="areas__lead">Based in Goose Creek, serving homes and rental properties across the Lowcountry.</p>
         <ul class="areas__list">
@@ -664,6 +675,6 @@
   <button class="lb__nav lb__nav--next" type="button" aria-label="Next photo" data-lb-next><svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></button>
 </dialog>
 
-<script src="/script.js?v=1edb5377" defer></script>
+<script src="/script.js?v=738b274e" defer></script>
 </body>
 </html>
