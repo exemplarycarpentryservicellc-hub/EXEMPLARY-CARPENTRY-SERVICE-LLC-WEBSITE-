@@ -8,11 +8,7 @@ Phone: [(843) 955-5963](tel:+18439555963) · Email: [exemplarycarpentryfinish@gm
 
 Good carpentry isn't about slapping trim against a wall and calling it a day. In Goose Creek homes, uneven drywall, coastal humidity shifts, and settling foundations mean every cut requires patience, proper measuring, and an eye for long-term fit.
 
-At Exemplary Carpentry Service, we've spent the past decade perfecting our trade in South Carolina neighborhoods. We work directly with:
-
-- **Homeowners:** Crafting custom accent walls, hanging precision crown molding, and updating flooring to give your home lasting character.
-- **Real Estate Investors:** Executing targeted trim, framing fixes, and upgrades that maximize property value prior to listing.
-- **Property Managers:** Repairing rotted subfloors, sticking doors, and stair treads quickly so your properties stay safe, solid, and occupied.
+At Exemplary Carpentry Service, we've spent the past decade perfecting our trade in South Carolina neighborhoods.
 
 ## Our customized solutions for you
 
