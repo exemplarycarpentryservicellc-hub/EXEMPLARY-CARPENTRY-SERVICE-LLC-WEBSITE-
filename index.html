@@ -29,7 +29,7 @@
 <link rel="preload" href="/fonts/newsreader-400-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/geist-400.woff2" as="font" type="font/woff2" crossorigin>
 <style>@font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/newsreader-400-italic.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/newsreader-400.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Geist';font-style:normal;font-weight:400 600;font-display:swap;src:url('/fonts/geist-400.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Geist Mono';font-style:normal;font-weight:400 500;font-display:swap;src:url('/fonts/geist-mono-400.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
-<link rel="stylesheet" href="/styles.css?v=2f0b80c9">
+<link rel="stylesheet" href="/styles.css?v=9ef16c0d">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -214,10 +214,6 @@
         <img data-src="/img/wainscot-office-1024.webp" data-srcset="/img/wainscot-office-640.webp 640w, /img/wainscot-office-1024.webp 1024w, /img/wainscot-office-1600.webp 1600w" sizes="100vw" width="1024" height="768" alt="" decoding="async">
       </picture>
     </div>
-    <button class="hero__pause" type="button" aria-pressed="false" data-slides-toggle hidden>
-      <svg class="ic hero__pause-ic" aria-hidden="true"><use href="#i-pause"/></svg><svg class="ic hero__play-ic" aria-hidden="true"><use href="#i-play"/></svg>
-      <span class="sr-only">Pause background slideshow</span>
-    </button>
     <div class="wrap hero__in">
       <div class="hero__copy hero__up" style="--d:1">
         <h1 class="hero__title"><span class="hero__lead">Skilled Carpentry &amp; Woodwork</span> <em>Done Right in Goose Creek, SC</em></h1>
@@ -254,10 +250,11 @@
 
   <!-- ================= ABOUT ================= -->
   <section class="sec about" id="about">
-    <!-- texto no centro, uma foto de cada lado (no celular: texto e as duas fotos lado a lado embaixo) -->
+    <!-- fotos a esquerda (escada + quarto sobreposto, selo e moldura da logo), texto a direita -->
     <div class="wrap about__grid">
-      <div class="about__ph about__ph--l">
-        <img class="about__main" src="/img/stair-trim-640.webp" srcset="/img/stair-trim-640.webp 640w, /img/stair-trim-1024.webp 768w" sizes="(min-width: 1200px) 28vw, 46vw" width="768" height="1024" alt="Staircase with oak treads, white risers, and raised panel wainscoting along the wall" loading="lazy" decoding="async">
+      <div class="about__media">
+        <img class="about__main" src="/img/stair-trim-640.webp" srcset="/img/stair-trim-640.webp 640w, /img/stair-trim-1024.webp 768w" sizes="(min-width: 1024px) 34vw, 86vw" width="768" height="1024" alt="Staircase with oak treads, white risers, and raised panel wainscoting along the wall" loading="lazy" decoding="async">
+        <img class="about__inset" src="/img/wainscot-bedroom-640.webp" width="640" height="854" alt="Bedroom with picture frame wainscoting and new luxury vinyl plank flooring" loading="lazy" decoding="async">
         <div class="about__badge">
           <span class="about__badge-num">10</span>
           <span class="about__badge-txt">Years on Lowcountry job sites</span>
@@ -270,9 +267,6 @@
           <p>At Exemplary Carpentry Service, we've spent the past decade perfecting our trade in South Carolina neighborhoods.</p>
         </div>
         <div class="about__actions"><a class="btn btn--navy rv" href="#estimate">Talk with our team<span class="btn__arrow"><svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></span></a></div>
-      </div>
-      <div class="about__ph about__ph--r">
-        <img class="about__inset" src="/img/wainscot-bedroom-640.webp" srcset="/img/wainscot-bedroom-640.webp 640w, /img/wainscot-bedroom-1024.webp 768w" sizes="(min-width: 1200px) 28vw, 46vw" width="640" height="854" alt="Bedroom with picture frame wainscoting and new luxury vinyl plank flooring" loading="lazy" decoding="async">
       </div>
     </div>
   </section>
@@ -684,6 +678,6 @@
   <button class="lb__nav lb__nav--next" type="button" aria-label="Next photo" data-lb-next><svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></button>
 </dialog>
 
-<script src="/script.js?v=643c730a" defer></script>
+<script src="/script.js?v=dc8f26b4" defer></script>
 </body>
 </html>

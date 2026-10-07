@@ -12,6 +12,7 @@
 
 - [Home](https://exemplarycarpentryservices.com/): services, recent work, process, FAQ, and the estimate form
 - [Home in Markdown](https://exemplarycarpentryservices.com/index.md): the same content without HTML
+- [Request an estimate](https://exemplarycarpentryservices.com/estimate/): the estimate form, with service areas and project steps
 - [Privacy Policy](https://exemplarycarpentryservices.com/privacy-policy/)
 - [Terms of Service](https://exemplarycarpentryservices.com/terms/)
 
