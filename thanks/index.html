@@ -16,7 +16,7 @@
 <link rel="preload" href="/fonts/newsreader-400-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/geist-400.woff2" as="font" type="font/woff2" crossorigin>
 <style>@font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/newsreader-400-italic.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/newsreader-400.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Geist';font-style:normal;font-weight:400 600;font-display:swap;src:url('/fonts/geist-400.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Geist Mono';font-style:normal;font-weight:400 500;font-display:swap;src:url('/fonts/geist-mono-400.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
-<link rel="stylesheet" href="/styles.css?v=11ebb97c">
+<link rel="stylesheet" href="/styles.css?v=2f0b80c9">
 </head>
 <body>
 
@@ -41,23 +41,31 @@
   </div>
 </header>
 
-<main class="card-page">
-  <svg class="deco" viewBox="0 0 100 100" aria-hidden="true">
-    <path pathLength="1" d="M1 1H99V99H1ZM9 9H91V91H9ZM1 9H99M1 91H99M9 1V99M91 1V99M50 1L99 50L50 99L1 50Z"/>
-  </svg>
-  <div class="card-page__box">
+<!-- texto a esquerda; no desktop, foto de trabalho na lateral direita cortada em ponta (losango da logo) -->
+<main class="tk">
+  <div class="tk__copy">
+    <!-- selo da logo (quadrado + losango) que se desenha, com o check dentro -->
+    <svg class="tk__mark" viewBox="0 0 64 64" aria-hidden="true">
+      <path class="tk__frame" pathLength="1" d="M1.5 1.5H62.5V62.5H1.5Z"/>
+      <path class="tk__diamond" pathLength="1" d="M32 7 57 32 32 57 7 32Z"/>
+      <path class="tk__check" pathLength="1" d="M22.5 32.5l6.5 6.5 12.5-13"/>
+    </svg>
+    <p class="tk__kicker">Request received</p>
     <h1 class="h2">Thank You. Your Project Is <em class="hl">in Good Hands.</em></h1>
-    <p>We received your estimate request. Here is what happens next:</p>
-    <ol class="card-page__steps">
-      <li><b>1</b><span>We'll reach out to discuss what you're looking to build or repair, your timeline, and material preferences.</span></li>
-      <li><b>2</b><span>We visit your property, take exact measurements, check subfloors or framing, and provide a detailed written quote.</span></li>
-      <li><b>3</b><span>Our carpenters show up on schedule, protect your home, and execute the woodwork with meticulous skill.</span></li>
+    <p class="tk__lead">We received your estimate request. Here is what happens next:</p>
+    <ol class="tk__steps">
+      <li style="--i:0"><b>01</b><span>We'll reach out to discuss what you're looking to build or repair, your timeline, and material preferences.</span></li>
+      <li style="--i:1"><b>02</b><span>We visit your property, take exact measurements, check subfloors or framing, and provide a detailed written quote.</span></li>
+      <li style="--i:2"><b>03</b><span>Our carpenters show up on schedule, protect your home, and execute the woodwork with meticulous skill.</span></li>
     </ol>
-    <div class="card-page__actions">
-      <a class="btn btn--gold" href="tel:+18439555963"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Call (843) 955-5963</a>
-      <a class="btn btn--line" href="/">Back to the website<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+    <div class="tk__actions">
+      <a class="btn btn--gold btn--lg" href="tel:+18439555963"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Call (843) 955-5963</a>
+      <a class="btn btn--line btn--lg" href="/">Back to the website<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
     </div>
   </div>
+  <figure class="tk__ph" aria-hidden="true">
+    <img src="/img/kitchen-range-1024.webp" srcset="/img/kitchen-range-640.webp 640w, /img/kitchen-range-1024.webp 768w" sizes="40vw" width="768" height="1024" alt="" loading="lazy" decoding="async">
+  </figure>
 </main>
 
 <script>
