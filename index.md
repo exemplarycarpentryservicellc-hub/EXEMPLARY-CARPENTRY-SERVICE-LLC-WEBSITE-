@@ -1,18 +1,18 @@
-# Skilled carpentry & woodwork done right in Goose Creek, SC
+# Skilled Carpentry & Woodwork Done Right in Goose Creek, SC
 
 Exemplary Carpentry Service has delivered sharp finish trim, solid subfloor repairs, and dependable interior carpentry for homeowners, property managers, and real estate investors across Goose Creek and the Lowcountry.
 
 Phone: [(843) 955-5963](tel:+18439555963) · Email: [exemplarycarpentryfinish@gmail.com](mailto:exemplarycarpentryfinish@gmail.com) · [Get your project estimate](https://exemplarycarpentryservices.com/#estimate)
 
-## 10 years on Lowcountry job sites: built on honest work & clean craft
+## 10 Years on Lowcountry Job Sites: Built on Honest Work & Clean Craft
 
 Good carpentry isn't about slapping trim against a wall and calling it a day. In Goose Creek homes, uneven drywall, coastal humidity shifts, and settling foundations mean every cut requires patience, proper measuring, and an eye for long-term fit.
 
 At Exemplary Carpentry Service, we've spent the past decade perfecting our trade in South Carolina neighborhoods.
 
-## Our customized solutions for you
+## Our Customized Solutions for You
 
-### Finish carpentry
+### Finish Carpentry
 
 - **Baseboards and shoe molding:** Baseboards and shoe molding create a clean transition between your walls and flooring while covering gaps and protecting lower walls from everyday wear. We install precise, seamless trim that complements your flooring and delivers a polished, finished look.
 - **Crown molding:** Crown molding adds architectural detail and a refined finish where your walls meet the ceiling. We carefully measure, cut, and fit each profile for clean joints and a seamless look throughout your living rooms, dining areas, and entryways.
@@ -29,7 +29,7 @@ At Exemplary Carpentry Service, we've spent the past decade perfecting our trade
 - **Hardwood installation:** Hardwood flooring adds natural warmth and timeless character to your home. We prepare the subfloor and install tongue-and-groove boards with careful layout, consistent spacing, and secure fastening.
 - **Subfloor repair and leveling:** Damaged or uneven subfloors can affect the performance of your finished flooring. We repair damaged areas, address uneven surfaces, and reinforce compromised sections to create a solid, level foundation for your new floor.
 
-### Drywall and painting
+### Drywall and Painting
 
 - **Drywall hanging and finishing:** Proper drywall installation creates a smooth foundation for paint and finish trim. We hang drywall, tape and finish the seams, and sand surfaces to create a clean, even finish ready for the next stage of your project.
 - **Interior painting:** Interior painting refreshes your space while protecting walls and woodwork from everyday wear. We prepare surfaces, protect surrounding areas, and apply smooth, even coats for clean lines and a professional finish.
@@ -37,31 +37,31 @@ At Exemplary Carpentry Service, we've spent the past decade perfecting our trade
 - **Cabinet painting:** Cabinet painting can give your kitchen or bathroom a fresh look without replacing the existing cabinets. We clean, sand, prime, and paint cabinet doors and frames for a smooth, durable finish.
 - **Cabinet refinishing:** Cabinet refinishing restores the appearance of existing wood cabinets while preserving their natural character. We prepare the wood, address surface wear, apply the desired stain or finish, and seal it for added protection.
 
-### Outdoor construction and hardscaping
+### Outdoor Construction and Hardscaping
 
 - **Hardscaping and pavers:** Hardscaping and pavers create durable outdoor areas for patios, entertaining, walkways, and other outdoor spaces. We prepare the base, install the pavers, and finish the joints for a stable and well-defined surface.
 - **Driveway construction:** A properly built paver driveway provides a durable surface designed to handle vehicle traffic while enhancing your home's curb appeal. We prepare a compacted base, establish proper drainage, and install heavy-duty pavers for long-term performance.
 - **Walkway:** Custom walkways provide a practical connection between outdoor areas while complementing your landscape. We create well-defined paths with properly prepared bases, secure edging, and durable pavers for a stable walking surface.
 
-## What sets Exemplary Carpentry Service apart
+## What Sets Exemplary Carpentry Service Apart
 
 - **10 years of local experience:** A decade in Goose Creek means we know local home construction, framing quirks, and humidity challenges inside and out.
 - **Clear, detailed estimates:** No surprise fees mid-project. You get a plain-English breakdown of materials and labor before work starts.
 - **Job site care:** We treat your living space with respect, using floor protection, keeping dust under control, and cleaning up work areas daily.
 - **No shortcuts on prep:** We don't hide structural issues behind decorative trim. If a subfloor or wall frame is off, we fix the foundation first.
 
-## Simple, straightforward project steps
+## Simple, Straightforward Project Steps
 
 1. **Initial conversation:** Reach out by form or phone. We'll discuss what you're looking to build or repair, your timeline, and material preferences.
 2. **On-site assessment & quote:** We visit your Goose Creek property, take exact measurements, check subfloors or framing, and provide a detailed written quote.
 3. **Precision installation:** Our carpenters show up on schedule, protect your home, and execute the woodwork with meticulous skill.
 4. **Final walkthrough:** We review the finished work together, verifying every seam, miter, and detail meets your standards before we wrap up.
 
-## Ready to fix your floors or elevate your woodwork?
+## Ready to Fix Your Floors or Elevate Your Woodwork?
 
 Partner with a Goose Creek carpenter who values clean edges, solid structures, and honest communication.
 
-## Homeowners also ask us
+## Homeowners Also Ask Us
 
 **Can you lay Luxury Vinyl Plank (LVP) or hardwood directly over damaged subfloors?**
 No, installing new LVP or hardwood over damaged subfloors can lead to issues like bouncing or squeaking. Our team inspects and repairs the underlying structure before installation to ensure a solid foundation.
@@ -78,6 +78,6 @@ Yes, we often work with property managers and real estate investors in Goose Cre
 **How do I get an accurate estimate for my project?**
 Request an estimate by calling us or submitting details online. We'll visit your site to assess the work, provide measurements, discuss materials, and deliver a clear, itemized quote.
 
-## Where we work
+## Where We Work
 
 Goose Creek, Summerville, North Charleston, Hanahan, Mount Pleasant, James Island, Moncks Corner, and Folly Beach, SC.
